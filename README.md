@@ -1,4 +1,5 @@
 # React + TypeScript + Vite
+### Author: aislaapps
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -115,3 +116,33 @@ To run a React application created with CRA(create-react-app), the start command
 
 # Setting Up Github Codespaces
 
+## Switch on Codespaces, and run dev
+
+Once up, on the terminal run app
+
+```
+npm run dev
+```
+
+## Port forwarding
+
+The URL provided is:
+
+https://animated-space-halibut-5vv45jg4w6wf7q97-3000.app.github.dev/
+
+This URL can only be accessed privately. Only accessible with the GitHub account used to start Codespaces. 
+
+If you want to share this URL with friends or colleagues so that they can check out the web server from their own devices, you have to make sure that the PORT visibility is set to public.
+
+In the Panel window, click on the PORTS tab where we can see the React application is being served on localhost:3000. The row with Port number 3000 is the one that corresponds to our local web application.
+
+Right click on the React App (3000), click on Port Visibility and then Public to enable public access to your served React page
+
+![alt text](image-4.png)
+
+## Stop or Terminate Codespaces
+
+Github Codespaces is free 60 hours a month. When done with coding for the day, it is not enough to close the browse.
+The cloud instance will still be running on GitHub’s server and each hour being run counts up to your 60-hour monthly allowance. The Codespaces must be either paused or stopped or deleted.
+
+![alt text](image-5.png)
