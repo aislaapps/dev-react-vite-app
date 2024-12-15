@@ -91,7 +91,11 @@ F1 -> Search Add/Create Dev Container and select universal, then skip the rest o
 
 # Reopening in Dev Container Locally
 
-7th December 2024 - it is currently not supported yet in MacOS ARM
+You will be asked to reopen project in DevContainer when you first load your project in vscode.
+You can reopen it to run as DevContainer.
+
+As of this writing, 7th December 2024, reopening DevContainer is not supported yet in MacOS ARM
+
 
 # Configure dev for Codespaces
 
