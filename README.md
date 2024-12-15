@@ -53,7 +53,9 @@ export default tseslint.config({
 
 ## Create project
 
+```
 npm create vite@latest dev-react-vite-app -- --template react-ts
+```
 
 ## Install
 
