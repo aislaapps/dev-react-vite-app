@@ -95,10 +95,17 @@ npm run dev
 
 # Configure a .devcontainer for Codespaces
 
-F1 -> Search Add/Create Dev Container and select universal, then skip the rest of selection
+Install Dev Containers extension in VSCode.
+
+Once installed, create Dev Container
+
+F1 -> Search Add/Create Dev Container -> Add configuration to workspace -> Select Default Unix Universal, then skip the rest of selection
 
 ![alt text](image-2.png)
 ![alt text](image-1.png)
+
+Once the .devcontainer/devcontainer.json is created, populate content from this project.
+
 
 # Reopening in Dev Container Locally
 
