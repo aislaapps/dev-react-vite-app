@@ -53,8 +53,19 @@ export default tseslint.config({
 
 ## Create project
 
+npm 6.x version
+```
+npm create vite@latest dev-react-vite-app --template react-ts
+```
+
+npm 7+ version
 ```
 npm create vite@latest dev-react-vite-app -- --template react-ts
+```
+
+yarn
+```
+yarn create vite devc-react-app --template react-ts
 ```
 
 ## Install
@@ -76,7 +87,7 @@ export default defineConfig({
 
 ```
 
-## Launching the Appe
+## Launching the App
 
 ```
 npm run dev
